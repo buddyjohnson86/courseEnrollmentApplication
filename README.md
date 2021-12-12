@@ -23,7 +23,7 @@ $ mvn spring-boot:run
 - If in a windows environment, you will need to setup the project in an IDE, such as eclipse, and run the application from there.
 - Open another terminal or application to inject curl commands
 
-##Details about implementation:
+## Details about implementation:
 - Java 8
 - Spring Boot
 - H2 In-Memory DB
@@ -119,7 +119,7 @@ courseCode - Code of course to be dropped from student's schedule
 - The response object is: SemesterResponse
 
 ### Response Objects
--The IdResponse object has the following fields:
+- The IdResponse object has the following fields:
 ```
 isSuccess - success status of corresponding request
 errorMessage - message detailing error, if applicable
@@ -133,14 +133,14 @@ errorMessage - message detailing error, if applicable
 students - List of students pertaining to the request
 ```
 
--The CourseResponse object has the following fields:
+- The CourseResponse object has the following fields:
 ```
 isSuccess - success status of corresponding request
 errorMessage - message detailing error, if applicable
 courses - List of courses pertaining to the request
 ```
 
--The SemesterResponse object has the following fields:
+- The SemesterResponse object has the following fields:
 ```
 isSuccess - success status of corresponding request
 errorMessage - message detailing error, if applicable
